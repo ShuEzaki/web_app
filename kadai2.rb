@@ -1,13 +1,13 @@
 num = 1
 while num <= 100 
     if num % 5 == 0 && num % 3 ==0
-        p "サンゴ礁"
+        puts "サンゴ礁"
       elsif num % 5 == 0
-        p "GO"
+        puts "GO"
       elsif num % 3 == 0
-        p "SAN"  
+        puts "SAN"  
       else 
-        p num
+        puts num
     end
       num += 1
 end
