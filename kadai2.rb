@@ -1,13 +1,12 @@
-num = 1
-while num <= 100 
+range = 1..100
+ range.each{|num|
     if num % 5 == 0 && num % 3 ==0
         puts "サンゴ礁"
-      elsif num % 5 == 0
+    elsif num % 5 == 0
         puts "GO"
-      elsif num % 3 == 0
+    elsif num % 3 == 0
         puts "SAN"  
-      else 
+    else 
         puts num
     end
-      num += 1
-end
+}
